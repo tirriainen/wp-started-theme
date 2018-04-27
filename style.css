@@ -1,0 +1,50 @@
+/*
+Theme Name: NiceCodeClub starter theme
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Tiia Rantanen
+Author URI: https://wordpress.org/
+Description: Starter theme for the NiceCodeClub WordPress workshop
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.site-header {
+	margin-top: 20px;
+}
+.site-logo img {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	padding: 10px 15px;
+	display: inline-block;
+}
+nav li:first-child {
+	padding-left: 0;
+}
+nav a {
+	text-decoration: none;
+	display: block;
+}
+nav li ul {display: none; /* ei näytetä alasivuja, koska niille ei ole muotoiluja */}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+.custom-header {
+	margin-bottom: 30px;
+}
+a {
+	color: #af1cff;
+}
